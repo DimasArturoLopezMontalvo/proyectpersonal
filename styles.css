@@ -1,0 +1,203 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+img{
+    width: 40%;
+}
+
+/* Utilidaes */
+.contenedor{
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 3rem;
+
+}
+ h1{
+     text-align: center;
+     text-transform: uppercase;
+
+     color: orangered;
+     font-weight: 900;
+ }
+
+ .titulo{
+    text-align: center;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: bold;
+ }
+
+ .titulo_centrado{
+     text-align: center;
+     font-size: 2.5rem;
+     margin: 0 0;
+     background-color:cornflowerblue;
+ }
+
+.contenido_centrado{
+max-width: 40px;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.contenido_texto{
+    font-size: 1rem;
+    line-height: 2;
+}
+
+ .logo{
+width: 30%;
+ }
+
+.contenido_buscar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0;
+    background-color: #333333;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+img{
+    width: 100%;
+}
+
+.buscar{
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1rem;
+    
+}
+
+.buscar input[type="text"]{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0 .5rem;
+}
+
+.buscar input[type="submit"]{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buscar input[type="submit"]:hover{
+    background-color: chocolate;
+}
+
+/* HEADER */
+.site_header{
+    background-color: #8a8a8a;
+    padding: 1rem 3rem 2rem 3rem;
+}
+
+.navegacion a{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+
+.navegacion lass-of-type{
+    margin: 0;
+}
+.navegacion a:hover{
+    color:orangered;
+}
+
+.contenido_nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+    line-height: 1.5rem;
+
+}
+
+.texto_nosotros blockquote{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.contenedor_servicios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroes{
+    width: 100%;
+}
+
+.texto_nosotros p{
+    font-size: 1.5rem;
+}
+
+/* footer */
+/*Utilidades*/
+html{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    max-width: 90%;
+    margin: auto;
+    padding: 1rem 5rem;
+}
+.contenido_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navegacion a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: .8rem;
+    margin: 0 auto;
+}
+.anuncio{
+    flex-basis: calc(33.3% - 2rem);
+}
+
+.site_footer{
+    background-color: burlywood;
+    margin: 0;
+    padding:  1rem 2rem;
+}
+
+.copyright{
+    margin: 0;
+    color:white;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: #00539e;
+}

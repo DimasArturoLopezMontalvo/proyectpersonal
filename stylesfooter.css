@@ -1,0 +1,37 @@
+/*Utilidades*/
+html{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    max-width: 90%;
+    margin: auto;
+    padding: 1rem 5rem;
+}
+.contenido_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navegacion a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: .8rem;
+    margin: 0 auto;
+}
+
+
+.site_footer{
+    background-color: burlywood;
+    margin: 0;
+    padding:  1rem 2rem;
+}
+
+.copyright{
+    margin: 0;
+    color:white;
+    font-weight: bold;
+    font-size: .8rem;
+}
